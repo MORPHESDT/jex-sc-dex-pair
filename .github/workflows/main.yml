@@ -1,6 +1,10 @@
 on: push
 jobs:
-name-of-job: test
+  example-job:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./interaction/snippets
     steps:
-    - name: test
-      run: devnet-mjex-xmph.snippets.sh deploy
+      - name: test
+        run:  devnet-mjex-xmph.snippets.sh deploy
