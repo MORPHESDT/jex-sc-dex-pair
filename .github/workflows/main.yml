@@ -1,0 +1,3 @@
+jobs:
+    steps:
+      - run: npm install -g bats
