@@ -1,4 +1,6 @@
 on: push
 jobs:
+name-of-job: test
     steps:
+    - name: test
       run: devnet-mjex-xmph.snippets.sh deploy
