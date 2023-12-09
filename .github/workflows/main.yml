@@ -1,4 +1,4 @@
-jobs:
 on: push
+jobs:
     steps:
       run: devnet-mjex-xmph.snippets.sh deploy
